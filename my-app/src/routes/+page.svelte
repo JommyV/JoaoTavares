@@ -7,41 +7,73 @@
 
 </script>
   
-<div class="flex flex-col items-center w-full px-4 max-w-screen-lg mx-auto">
+<header class="flex justify-between items-center p-4 text-Black">
+    <div>botao 1</div>
+    <div>botao 2</div>
+</header>
 
-    <div class= "flex justify-center items-center pt-10">
+<div class="flex items-left w-half px-4 max-w-screen-lg mx-auto pt-10">
+
+    <div class="flex flex-row flex-wrap justify-left items-center pt-10">
+        <div class= "px-4">
+            <img src="/images/jaozin.jpg" alt="João Tavares" class="ml-4 w-full sm:w-64 md:w-72 lg:w-100 max-w-100 h-auto rounded-full drop-shadow-lg"> 
+        </div>
+        <div class= "max-w-2xl px-4">
         <h1
-        class="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pt-12 pb-4 animate-ping-slow break-words whitespace-normal "
-        style="font-family: 'Press Start 2P', 'VT323', 'Orbitron', 'Anton', monospace; text-shadow: 0 2px 8px #ffffff, 0 0px 2px #00ffe7;"
-        >
-        THE PORTFOLIO CAGE MATCH V2
+        class="text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal "
+            >
+        João Tavares
         </h1>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Orbitron:wght@700&display=swap" rel="stylesheet">
-    </div>
-
-
-
-        <div class="text-white text-center mt-10 max-w-3xl">
-            <h2 style="font-family: 'Press Start 2P', 'VT323', 'Orbitron', 'Anton', monospace; letter-spacing: 2px; font-size: 1 rem; text-shadow: 0 2px 8px #fffff, 0 0px 2px #00ffe7;" class= "text-center">
-                This is a game about games, learn about them and guess which had a higher grade 
-            </h2>
-
-            {#if !$gameStarted}
+        <h2 class="text-left text-md sm:text-lg md:text-xl lg:text-2xl font-bold tracking-wide bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal" style="font-family: 'Montserrat'">
+                    About me
+        </h2>  
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl max-w-100 text-justify" style="font-family: Montserrat, sans-serif;">
+                    Programmer and Game Designer. I have a passion for creating unique and engaging gaming experiences both in digital as well as physical formats. 
+                </p>  </div>
         
-                <h2
-                    style="font-family: 'Press Start 2P', 'VT323', 'Orbitron', 'Anton', monospace; letter-spacing: 2px; font-size: 1 rem; text-shadow: 0 2px 8px #fffff, 0 0px 2px #00ffe7;"
-                    class="text-xs sm:text-sm md:text-base pt-6 px-4"
-                    out:fade
-                >
-                    Videos autoplay and buttons become clickable after both videos end
-                </h2>
-            {/if}
-      </div>
-
-      <div class="w-full mt-10">
-        <TwoChoiceGame />
-      </div>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Borel&family=Jaini&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+        
+    </div>  
 </div>
+       
+<div class=" flex justify-evenly items-center w-half px-4 max-w-screen-lg mx-auto gap-5 pl-80">    
+        <div class="flex flex-row gap-5 justify-center items-center">
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
+                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            </div>  
+           <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
+                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            </div> 
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
+                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            </div> 
+             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
+                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            </div> 
+        </div>
+
+    </div>   
+
+
+    <div class="w-11/12 h-px bg-gray-400 mt-20 mb-5 mx-auto"></div>  
+
+    <div class="flex flex-row flex-wrap justify-between w-11/12 mx-auto">
+        <div>
+            <h1 class="text-left sm:text-1xl md:text-sm lg:text-lg font-bold bg-clip-text" style="font-family: Montserrat, sans-serif;">Email</h1>
+            <h2 class="pb-10" style="font-family: Montserrat, sans-serif;">tavaresjmv@gmail.com</h2>
+        </div>
+        <div>
+            <h1 class="text-left sm:text-1xl md:text-sm lg:text-lg font-bold bg-clip-text" style="font-family: Montserrat, sans-serif;">GitHub</h1>
+            <a href="https://github.com/JommyV" class="pb-10 text-blue-500 hover:underline" style="font-family: Montserrat, sans-serif;">https://github.com/JommyV</a>
+        </div>
+        <div>
+           <h1 class="text-left sm:text-1xl md:text-sm lg:text-lg font-bold bg-clip-text" style="font-family: Montserrat, sans-serif;">Linkedin</h1>
+            <a href="https://www.linkedin.com/in/joao-miguel-tavares/" class="pb-10 text-blue-500 hover:underline" style="font-family: Montserrat, sans-serif;">https://www.linkedin.com/in/joao-miguel-tavares/</a>
+        </div>
+
+    </div>
+    
 
 <!-- <p class="text-white text-right ">
     This is a sentence with a footnote.<sup><a href="#footnote-1" class="text-blue-400 hover:underline justify-right">[1]</a></sup>
@@ -51,10 +83,21 @@
 
 
 <style>
+    .Letter {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+    }
+    
+    
+    
     :global(body) {
-        background: linear-gradient(180deg, #000000 0%, #ab4545 100%);
         min-height: 100vh;
         margin: 0;
+        background: #ffffff;
     }
 
     
