@@ -7,16 +7,31 @@
 
 </script>
   
-<header class="flex justify-between items-center p-4 text-Black">
-    <div>botao 1</div>
-    <div>botao 2</div>
+<header class="flex flex-row justify-between items-center p-4 text-Black w-11/12">
+    <div class="flex flex-row items-center gap-2 pl-10">
+        <div class="w-5 h-5 rounded-full bg-blue-300 drop-shadow-lg"></div>
+        <div class="flex flex-row gap-2 items-center" style="font-family: 'Montserrat', sans-serif;">
+            <h1 class="font-bold">João Miguel Tavares</h1>
+            <p class="text-xs"> VideoGame Programmer
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-row gap-4 items-center">
+        <button>Resume</button>
+        <div class="w-px h-6 bg-gray-400"></div>
+        <button>Projetos</button>
+        <div class="w-px h-6 bg-gray-400"></div>
+        <button>Contacts</button>
+        <div class="w-px h-6 bg-gray-400"></div>
+        <button>Personal</button>
+    </div>
 </header>
 
-<div class="flex items-left w-half px-4 max-w-screen-lg mx-auto pt-10">
+<div id="main info" class="flex items-left w-half px-4 max-w-screen-lg mx-auto pt-10">
 
     <div class="flex flex-row flex-wrap justify-left items-center pt-10">
         <div class= "px-4">
-            <img src="/images/jaozin.jpg" alt="João Tavares" class="ml-4 w-full sm:w-64 md:w-72 lg:w-100 max-w-100 h-auto rounded-full drop-shadow-lg"> 
+            <img src="/images/jaozin.jpg" alt="João Tavares" class="ml-4 w-full sm:w-64 md:w-72 lg:w-100 max-w-80 h-auto rounded-full drop-shadow-lg"> 
         </div>
         <div class= "max-w-2xl px-4">
         <h1
@@ -37,19 +52,24 @@
     </div>  
 </div>
        
-<div class=" flex justify-evenly items-center w-half px-4 max-w-screen-lg mx-auto gap-5 pl-80">    
+<div id="projects" class="flex justify-evenly items-center w-half px-4 max-w-screen-lg mx-auto gap-5 pl-80">    
         <div class="flex flex-row gap-5 justify-center items-center">
-            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
-                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
+                <button on:click={() => window.open('/botblast', '_blank')}>
+                                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+                </button>
             </div>  
-           <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
-                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+           <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors" >
+                <button on:click={() => window.open('/bloodymary', '_blank')}>
+                    <img src="/images/fangs.png" alt="João Tavares" class="w-14 h-14">
             </div> 
-            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
-                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
+                <button on:click={() => window.open('/jumpyufo', '_blank')}>
+                    <img src="/images/jumpy.jpeg" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
             </div> 
-             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg">
-                <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
+                <button on:click={() => window.open('/earforceone', '_blank')}>
+                    <img src="/images/ear.png" alt="João Tavares" class="w-16 h-10 ">
             </div> 
         </div>
 
