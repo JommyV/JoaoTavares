@@ -7,7 +7,7 @@
 
 </script>
   
-<header class="flex flex-row justify-between items-center p-4 text-Black w-11/12">
+<header class="flex flex-row justify-between items-center p-4 text-Black w-11/12 gap-10">
     <div class="flex flex-row items-center gap-2 pl-10">
         <div class="w-5 h-5 rounded-full bg-blue-300 drop-shadow-lg"></div>
         <div class="flex flex-row gap-2 items-center" style="font-family: 'Montserrat', sans-serif;">
@@ -23,37 +23,36 @@
         <div class="w-px h-6 bg-gray-400"></div>
         <button>Contacts</button>
         <div class="w-px h-6 bg-gray-400"></div>
-        <button>Personal</button>
+        <button class="md: pr-5 sm: pr-5">Personal</button>
     </div>
 </header>
 
-<div id="main info" class="flex items-left w-half px-4 max-w-screen-lg mx-auto pt-10">
+<div id="main info" class="flex justify-center-safe  md:justify-center">
 
-    <div class="flex flex-row flex-wrap justify-left items-center pt-10">
+    <div class="flex flex-row items-center pt-10">
         <div class= "px-4">
-            <img src="/images/jaozin.jpg" alt="João Tavares" class="ml-4 w-full sm:w-64 md:w-72 lg:w-100 max-w-80 h-auto rounded-full drop-shadow-lg"> 
+            <img src="/images/jaozin.jpg" alt="João Tavares" class="w-full max-w-80 min-w-50 rounded-full drop-shadow-lg"> 
         </div>
-        <div class= "max-w-2xl px-4">
+        <div >
         <h1
-        class="text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal "
+        class="text-left text-2xl lg:text-5xl font-extrabold bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal "
             >
         João Tavares
         </h1>
         <h2 class="text-left text-md sm:text-lg md:text-xl lg:text-2xl font-bold tracking-wide bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal" style="font-family: 'Montserrat'">
                     About me
         </h2>  
-        <p class="text-sm sm:text-base md:text-lg lg:text-xl max-w-100 text-justify" style="font-family: Montserrat, sans-serif;">
-                    Programmer and Game Designer. I have a passion for creating unique and engaging gaming experiences both in digital as well as physical formats. 
-                </p>  </div>
-        
+        <p class="text-xl text-justify max-w-md" style="font-family: Montserrat, sans-serif;">
+                            Programmer and Game Designer with a passion for creating unique and engaging gaming experiences both in digital as well as physical formats. 
+                        </p>  </div>  
         
         <link href="https://fonts.googleapis.com/css2?family=Borel&family=Jaini&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
         
     </div>  
 </div>
-       
-<div id="projects" class="flex justify-evenly items-center w-half px-4 max-w-screen-lg mx-auto gap-5 pl-80">    
-        <div class="flex flex-row gap-5 justify-center items-center">
+<section id = "info">       
+    <div id="projects" class="flex justify-evenly items-center sm:items-left w-half px-4 max-w-screen-lg mx-auto gap-5 pl-70">    
+        <div class="flex sm:flex-row flex-col gap-5 justify-center items-center">
             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
                 <button on:click={() => window.open('/botblast', '_blank')}>
                                 <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
@@ -74,8 +73,10 @@
         </div>
 
     </div>   
+</section>
 
-
+    
+<footer id="contacts" class="fixed bottom-0 left-0 right-0">
     <div class="w-11/12 h-px bg-gray-400 mt-20 mb-5 mx-auto"></div>  
 
     <div class="flex flex-row flex-wrap justify-between w-11/12 mx-auto">
@@ -93,7 +94,7 @@
         </div>
 
     </div>
-    
+</footer>
 
 <!-- <p class="text-white text-right ">
     This is a sentence with a footnote.<sup><a href="#footnote-1" class="text-blue-400 hover:underline justify-right">[1]</a></sup>
