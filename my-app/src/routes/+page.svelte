@@ -80,7 +80,7 @@
 </section>
 
     
-<footer id="contacts" class="fixed bottom-0 left-0 right-0">
+<footer id="contacts" class= "bottom-0 left-0 right-0">
     <div class="w-11/12 h-px bg-gray-400 mt-20 mb-5 mx-auto"></div>  
 
     <div class="flex flex-row flex-wrap justify-between w-11/12 mx-auto">
