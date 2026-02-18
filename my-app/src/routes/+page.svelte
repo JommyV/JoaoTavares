@@ -61,15 +61,19 @@
            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors" >
                 <button on:click={() => window.open('/bloodymary', '_blank')}>
                     <img src="/images/fangs.png" alt="João Tavares" class="w-14 h-14">
+                </button>
+            </div> 
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
+                <button on:click={() => window.open('/earforceone', '_blank')}>
+                    <img src="/images/ear.png" alt="João Tavares" class="w-16 h-10 ">
+                </button>
             </div> 
             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
                 <button on:click={() => window.open('/jumpyufo', '_blank')}>
                     <img src="/images/jumpy.jpeg" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
+                </button> 
             </div> 
-             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
-                <button on:click={() => window.open('/earforceone', '_blank')}>
-                    <img src="/images/ear.png" alt="João Tavares" class="w-16 h-10 ">
-            </div> 
+            
         </div>
 
     </div>   
