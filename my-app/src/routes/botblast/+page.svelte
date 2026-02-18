@@ -36,14 +36,29 @@
                 ></video>
 </div>
 
-<div class="flex justify-center pb-20">
-<button class="bg-white flex flex-row">
-    GitHub Repo
-    <img src="/images/github-logo.png" alt="GitHub Logo" class="max-w-5">
-</button>
+<div class="flex justify-center pb-10">
+    <button class="flex flex-row pr-10" style="background-image: url('/images/ButtonBack.png'); background-size: cover; background-position: center;">
+        <a href="https://github.com/JommyV/BotBlastDevelopment" class="flex flex-row items-center gap-2">
+            <p style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;" class=" pl-5 text-white">GitHub Repo</p>
+            <img src="/images/github-logo.png" alt="GitHub Logo" class="max-w-10">
+        </a>
+    </button>
 
 
 </div>
+    
+ 
+<footer id="contacts" class="left-0 right-0 pb-2">
+    <div class="w-11/12 h-px bg-gray-400 mt-20 mb-5 mx-auto"></div> 
+    <div class="flex justify-between flex-row items-center pl-[4%]">
+        <p style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;" class="text-white flex flex-row items-center"> Made in C++ with <img src="/images/UELogo.png" alt="Unreal Engine Logo" class="max-w-10 "></p>
+        
+        <p class="text-white pr-[4%]">© 2026 BotBlast Team. Gotta Go Blast.</p>
+    </div>
+    <div>
+        
+    </div>
+</footer>
 
 
 <style>
