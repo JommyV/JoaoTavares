@@ -28,11 +28,12 @@
 </div>
 
 <div class="flex justify-center pb-10">
-    <button class="flex flex-row pr-10" style="background-image: url('/images/buttongrandeBM.png'); background-size: cover; background-position: center;">
-        <a href="https://github.com/JommyV/BloodyMary" class="flex flex-row items-center gap-2">
+    <button class="flex flex-row pr-10 cursor-pointer items-center gap-2" style="background-image: url('/images/buttongrandeBM.png'); background-size: cover; background-position: center;" on:click={() => window.open('https://github.com/JommyV/BloodyMary', '_blank')}>
+        
+        
             <p style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;" class=" pl-8 text-white">GitHub Repo</p>
             <img src="/images/github-logo.png" alt="GitHub Logo" class="max-w-8 py-2">
-        </a>
+     
     </button>
 
 

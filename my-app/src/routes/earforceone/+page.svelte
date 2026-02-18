@@ -62,13 +62,14 @@
 </div>
 
 <div class="flex justify-center pb-10">
-    <button class="flex flex-row pr-5 rounded-full" style="background-image: url('/images/Button_trump.png'); background-size: cover; background-position: center;">
-        <a href="https://github.com/JommyV/Trump-Simulator" class="flex flex-row items-center gap-2">
+    <button class="flex flex-row pr-5 rounded-full cursor-pointer items-center gap-2" style="background-image: url('/images/Button_trump.png'); background-size: cover; background-position: center;" on:click={() => window.open('https://github.com/JommyV/Trump-Simulator', '_blank')}>
+       
             <p style="font-family: 'Pixelify Sans', sans-serif;" class=" pl-4 text-white">GitHub Repo</p>
             <img src="/images/github-white-icon.png" alt="GitHub Logo" class="max-w-10">
-        </a>
+      
     </button>
 </div>
+
 
  
 <footer id="info" class="left-0 right-0 pb-2">

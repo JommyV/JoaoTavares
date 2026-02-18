@@ -37,11 +37,10 @@
 </div>
 
 <div class="flex justify-center pb-10">
-    <button class="flex flex-row pr-10" style="background-image: url('/images/ButtonBack.png'); background-size: cover; background-position: center;">
-        <a href="https://github.com/JommyV/BotBlastDevelopment" class="flex flex-row items-center gap-2">
+    <button class="flex flex-row pr-10 items-center gap-2 cursor-pointer" style="background-image: url('/images/ButtonBack.png'); background-size: cover; background-position: center;" on:click={() => window.open('https://github.com/JommyV/BotBlastDevelopment', '_blank')}>
+        
             <p style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;" class=" pl-4 text-white">GitHub Repo</p>
             <img src="/images/github-logo.png" alt="GitHub Logo" class="max-w-10">
-        </a>
     </button>
 </div>
 
