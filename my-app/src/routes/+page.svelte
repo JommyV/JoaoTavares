@@ -5,29 +5,40 @@
     import TwoChoiceGame from '../lib/options.svelte';
     import { gameStarted } from '$lib/stores.js';
 
+  
 </script>
   
-<header class="flex flex-row justify-between items-center p-4 text-Black w-11/12 gap-10">
-    <div class="flex flex-row items-center gap-2 pl-10">
+
+<header class="flex justify-between items-center p-4 text-black w-full">
+
+    <!-- Logo / Nome -->
+    <div class="flex items-center gap-2">
         <div class="w-5 h-5 rounded-full bg-blue-300 drop-shadow-lg"></div>
-        <div class="flex flex-row gap-2 items-center" style="font-family: 'Montserrat', sans-serif;">
+        <div class="flex gap-2 items-center" style="font-family: 'Montserrat', sans-serif;">
             <h1 class="font-bold">João Miguel Tavares</h1>
-            <p class="text-xs"> VideoGame Programmer
-            </p>
+            <p class="text-xs">VideoGame Programmer</p>
         </div>
     </div>
-    <div class="flex flex-row gap-4 items-center">
-        <button>Resume</button>
-        <div class="w-px h-6 bg-gray-400"></div>
+
+    <!-- Botão hamburguer (aparece só em telas pequenas) -->
+    <button id="menuBtn" class="md:hidden text-2xl">
+        ☰
+    </button>
+
+    <!-- Menu -->
+    <nav id="menu"
+         class="hidden absolute top-16 right-4 bg-white shadow-lg rounded-lg p-4 flex-col gap-4 md:flex md:static md:bg-transparent md:shadow-none md:flex-row">
+
+         <button on:click={() => window.open('/resume', '_blank')}>Resume</button>
         <button>Projetos</button>
-        <div class="w-px h-6 bg-gray-400"></div>
         <button>Contacts</button>
-        <div class="w-px h-6 bg-gray-400"></div>
-        <button class="md: pr-5 sm: pr-5">Personal</button>
-    </div>
+        <button>Personal</button>
+
+    </nav>
+
 </header>
 
-<div id="main info" class="flex justify-center-safe  md:justify-center">
+<div id="main info" class="flex justify-center-safe  md:justify-center pr-5">
 
     <div class="flex flex-row items-center pt-10">
         <div class= "px-4">
@@ -35,7 +46,7 @@
         </div>
         <div >
         <h1
-        class="text-left text-2xl lg:text-5xl font-extrabold bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal "
+        class="text-left text-2xl lg:text-5xl font-extrabold bg-clip-text bg-gradient-to-r from-white via-gray to-white drop-shadow-lg pb-4 break-words whitespace-normal"
             >
         João Tavares
         </h1>
@@ -51,8 +62,8 @@
     </div>  
 </div>
 <section id = "info">       
-    <div id="projects" class="flex justify-evenly items-center sm:items-left w-half px-4 max-w-screen-lg mx-auto gap-5 pl-70">    
-        <div class="flex sm:flex-row flex-col gap-5 justify-center items-center">
+    <div id="projects" class="flex justify-evenly items-center sm:items-left w-half px-4 max-w-screen-lg mx-auto gap-5 lg:pl-70">    
+        <div class="flex flex-row sm:flex-wrap gap-5 justify-center items-center">
             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
                 <button on:click={() => window.open('/botblast', '_blank')}>
                                 <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
@@ -60,7 +71,7 @@
             </div>  
            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors" >
                 <button on:click={() => window.open('/bloodymary', '_blank')}>
-                    <img src="/images/fangs.png" alt="João Tavares" class="w-14 h-14">
+                    <img src="/images/fangs.png" alt="João Tavares" class="w-18 h-13">
                 </button>
             </div> 
             <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">

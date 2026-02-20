@@ -1,6 +1,6 @@
 
 <div class="flex flex-col items-center relative">
-    <img class="w-[10vw] py-10 relative z-10 " src="/images/fangs.png" alt="BotBlast Logo" id= "logo">
+    <img class="w-[30vw] pt-10 relative z-10 " src="/images/fangs.png" alt="BloodyMary Logo" id= "logo">
     <div>
         <p class="pt-10 text-white text-7xl tracking-tight text-center playwrite-at-regular" style="font-family: 'Playwrite AT', 'Arial Black', Arial, sans-serif;">
             What if vampires ate us?
