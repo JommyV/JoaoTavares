@@ -44,6 +44,14 @@
     </button>
 </div>
 
+<div class="flex justify-center pb-10">
+    <button class="flex flex-row pr-10 items-center gap-2 cursor-pointer" style="background-image: url('/images/ButtonBack.png'); background-size: cover; background-position: center;" on:click={() => window.open('/documents/BBGDD.pdf', '_blank')}>
+        
+            <p style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;" class=" pl-4 text-white">Game Design Document</p>
+            <img src="/images/github-logo.png" alt="Download Icon" class="max-w-10">
+    </button>
+</div>
+
 <div class="flex justify-center">
        <p class="text-white" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;"> Coming in Summer 2026</p>
 </div>
