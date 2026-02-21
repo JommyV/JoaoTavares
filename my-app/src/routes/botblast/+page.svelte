@@ -36,6 +36,43 @@
                 ></video>
 </div>
 
+
+ <div class= "flex justify-center py-10 w-full text-center">
+        <p class="text-white w-[48vw]" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">Based around an easy to understand but hard to master mechanic, the Blast Satchel, BotBlast is a game all about speed and overcoming challenges.
+            It is a game all about going fast and finding your own way of completing challenges.
+        </p>
+        
+</div>
+
+<div class="flex flex-row py-10 text-center w-6/12 mx-auto justify-between gap-5">
+    <p class="text-white" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">The developer way:</p>
+    <p class="text-white" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">The <i class="text-itallic">speedrunner</i> way:</p>
+</div>
+
+
+<div class="flex flex-row justify-between py-20 mx-auto w-9/12">
+       <!-- svelte-ignore a11y_media_has_caption -->
+       <video 
+                  src=/videos/BotBlastIntended.mp4
+                  playsinline
+                  controls
+                  volume="1"
+                  class="w-4/9 rounded-lg"
+                ></video>
+         <video 
+                  src=/videos/BotBlastSpeedRun.mp4
+                  playsinline
+                  controls
+                  volume="1"
+                  class="w-4/9 max-w-4xl rounded-lg"
+                ></video>
+</div>
+
+
+
+
+
+
 <div class="flex justify-center pb-10">
     <button class="flex flex-row pr-10 items-center gap-2 cursor-pointer" style="background-image: url('/images/ButtonBack.png'); background-size: cover; background-position: center;" on:click={() => window.open('https://github.com/JommyV/BotBlastDevelopment', '_blank')}>
         
