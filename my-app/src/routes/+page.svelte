@@ -71,26 +71,23 @@
 <section id = "info">       
     <div id="projects" class="flex justify-evenly items-center sm:items-left w-half px-4 max-w-screen-lg mx-auto gap-5 lg:pl-70">    
         <div class="flex flex-row sm:flex-wrap gap-5 justify-center items-center">
-            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
-                <button on:click={() => window.open('/botblast', '_blank')}>
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors cursor-pointer">
+                <button class ="cursor-pointer" on:click={() => window.open('/botblast', '_blank')}>
                                 <img src="/images/doc.png" alt="João Tavares" class="w-16 h-16 rounded-full object-cover">
                 </button>
             </div>  
-           <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors" >
-                <button on:click={() => window.open('/bloodymary', '_blank')}>
+           <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors cursor-pointer" >
+                <button class="cursor-pointer" on:click={() => window.open('/bloodymary', '_blank')}>
                     <img src="/images/fangs.png" alt="João Tavares" class="w-18 h-13">
                 </button>
             </div> 
-            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
-                <button on:click={() => window.open('/earforceone', '_blank')}>
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors cursor-pointer">
+                <button class="cursor-pointer" on:click={() => window.open('/earforceone', '_blank')}>
                     <img src="/images/ear.png" alt="João Tavares" class="w-16 h-10 ">
                 </button>
-            </div> 
-            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors">
-                <!-- svelte-ignore a11y_consider_explicit_label -->
-                <a href="https://www.behance.net/joomitavares1" target="_blank"></a>
-                    <p style="font-family: 'Montserrat'">More</p>
-                
+            </div>
+            <div class="flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 drop-shadow-lg hover:bg-gray-300 rounded-full transition-colors cursor-pointer">
+                <a href="https://www.behance.net/joomitavares1" target="_blank" class="w-full h-full flex items-center justify-center" style="font-family: 'Montserrat', sans-serif;">More</a>
             </div> 
             
         </div>
