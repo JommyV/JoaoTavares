@@ -7,9 +7,10 @@
         style="filter: blur(2px); opacity: 0.7;" 
         id="doc"
         >
-
-
-    <img class="w-[50vw] py-10 relative z-10 " src="/images/botblast.png" alt="BotBlast Logo" id= "logo">
+</div>
+    <div class="flex flex-col items-center">
+        <img class="w-[40vw] py-10 z-10" src="/images/botblastw.png" alt="BotBlast Logo" id= "logo">
+    </div>
     <div>
         <p class="pt-10 text-white text-7xl font-extrabold tracking-tight animate-pulse text-center" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">
             Gotta go Blast.
@@ -22,8 +23,6 @@
         
     </div>
   
-    
-</div>
 
 <div class="flex justify-center py-20">
        <!-- svelte-ignore a11y_media_has_caption -->
