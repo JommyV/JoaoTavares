@@ -17,10 +17,8 @@
         </p>
         <link href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&family=Orbitron:wght@700&display=swap" rel="stylesheet">
     </div>
-     
-    <div class= "pt-10 w-[32vw] text-center">
-        <p class="text-white" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">It's simple, we blast and we go fast</p>
-        
+    <div class="pt-10 w-full flex justify-center text-center">
+        <p class="text-white w-[32vw]" style="font-family: 'Bungee', 'Orbitron', 'Arial Black', Arial, sans-serif;">It's simple, we blast and we go fast</p>
     </div>
   
 
